@@ -1,0 +1,325 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom style */
+
+body {
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+a {
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+}
+.active {
+	color: green;
+}
+/* Header */
+
+header {
+	background-color: #1d004f;
+	width: 100%;
+	padding: 20px 0px;
+	margin-bottom: 20px;
+	font-size: 28px;
+	word-spacing: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Section */
+
+h1 {
+	text-align: center;
+	font-size: 46px;
+	padding: 30px 0px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 26px;
+	padding-bottom: 42px;
+}
+
+.box {
+	width: 140px;
+	height: 140px;
+	background-color: rgb(153 216 202);
+	margin: 0 auto;
+	border: 20px solid rgb(88 115 226);
+	outline: 5px solid black;
+	box-shadow: 0 0 0 30px rgb(138 237 169);
+	border-radius: 3%;
+}
+
+.marker-container {
+	text-align: center;
+	margin-top: 64px;
+}
+
+.circle {
+	width: 16px;
+	height: 16px;
+	background-color: #99d8ca;
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+.circle-1 {
+	width: 16px;
+	height: 16px;
+	background-color: rgb(88 115 226);
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+
+.circle-2 {
+	width: 16px;
+	height: 16px;
+	background-color: black;
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+.circle-3 {
+	width: 16px;
+	height: 16px;
+	background-color: rgb(138 237 169);
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+.marker {
+	margin: 0 16px;
+	display: inline-block;
+}
+hr {
+	width: 80%;
+	border-style: dashed;
+	border-color: gray;
+	margin: 64px auto;
+}
+.container {
+	width: 660px;
+	border: 2px solid gray;
+	margin: 0 auto;
+	margin-bottom: 64px;
+	font-size: 0;
+}
+.child-box {
+	width: 200px;
+	height: 180px;
+	margin: 10px;
+	background-color: gray;
+	display: inline-block;
+}
+.border {
+	border: 2px solid black;
+	box-sizing: border-box;
+}
+
+/* Blog Page Style */
+
+
+          /* Section-1 */
+
+.img {
+	/* display: inline-block; */
+	width: 45%;
+	margin-right: 7%;
+}
+.detail {
+	display: inline-block;
+	width: 45%;
+	padding: 0;
+	vertical-align: top;
+}
+
+h3 {
+	display: inline-block;
+	font-size: 32px;
+	color: darkblue;
+	line-height: 1.2;
+}
+.article {
+	padding: 1% 10%;
+	margin: 0 auto;
+	margin-bottom: 24px;
+	/* text-align: start; */
+}
+.read-more-btn {
+	background-color: green;
+	padding: 10px 25px;
+	font-size: 18px;
+	border-radius: 18px;
+}
+p {
+	margin: 18px 0;
+}
+
+         /* Section-2 */
+
+
+.article-2 {
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right:7% ;
+}
+
+
+.learn-more-btn {
+	color: green;
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+.article-3 {
+	/* padding: 1% 10%; */
+	width: 45%;
+	display: inline-block;
+}
+
+
+
+.section-2 {
+	margin: 0 auto;
+	padding: 1% 10%;
+	
+}
+.width-full{
+	width: 100%;
+}
